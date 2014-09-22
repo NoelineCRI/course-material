@@ -4,6 +4,8 @@ Introduces: split, list, len.
 
 ## Instructions
 
+Provide the script `solution.py` that prints the number of words of the paragraph:
+
 ```python
 phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  taxation of trade routes to outlying star systems is in\
@@ -15,7 +17,8 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  peace and justice in the galaxy, to settle the conflict"""
 ```
 
-Print the number of words using the split function.
+(You should copy the paragraph to your script.)
+
 
 ## Advice
 

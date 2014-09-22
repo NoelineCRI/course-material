@@ -1,42 +1,37 @@
-# count parameters
+#Manipulate your first dictionnary
 
-Introduces: argv, import, len, list, for, enumerate.
+Introduces: dict, print.
+
 Author(s): @c24b.
 
 ## Instructions
 
-Write a script named `solution.py` that outputs the position of the argument and it's value in a new line using a `for`.
+Your first dictionnary will be a velib station
 
-## Advice
+```python
+station = {
+ 'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
+ 'number': 31705,
+ 'latitude': 48.8645278209514,
+ 'name': 'CHAMPEAUX (BAGNOLET)',
+ 'longitude': 2.416170724425901
+}
+```
 
-Take a look at [`enumerate()`](https://docs.python.org/3.3/library/functions.html#enumerate) function.
-
-## Example
+Copy paste this dictionnary into your `solution.py` that must print one key and one value per line, such as:
 
 ```bash
-julien@localhost$ python solution.py user email format
-0 solution.py
-1 user
-2 email
-3 format
-julien@localhost$ python solution.py
-0 solution.py
-julien@localhost$ python solution2.py test
-0 solution.py
-1 test
-julien@localhost$
+$ python3 solution.py
+latitude 48.864527821
+longitude 2.41617072443
+number 31705
+name CHAMPEAUX (BAGNOLET)
+address RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET
 ```
+ 
 
 
 
 ## References
- - [argv](https://docs.python.org/3.4/library/sys.html)
- - [import](https://docs.python.org/3/reference/simple_stmts.html#import)
- - [len](https://docs.python.org/3/library/functions.html#len)
- - [list](https://docs.python.org/3/tutorial/introduction.html#lists)
- - [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
- - [enumerate](https://docs.python.org/3.4/library/functions.html#enumerate)
- - [enumerate](☛)
- - [enumerate](for(print,)
- - [enumerate](list))
- - [enumerate](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
+ - [dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+ - [print](https://docs.python.org/3/tutorial/index.html)

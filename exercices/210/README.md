@@ -4,19 +4,26 @@ Introduces: module, for, numbers, functions, if.
 
 ## Instructions
 
-Easier solution for the moment is to copy/paste your is_prime function
-in a is_prime.py file in the current directory: `/210/is_prime.py`.
+Provide the script `solution.py` that prints the sum of every prime number inferior to 1000.
 
-Then you'll be able to import the is_prime module containing the
-is_prime function like this:
-
+```bash
+$ python3 solution.py
+666
 ```
+This solution is wrong of course :), you must provide the good one !
+
+
+## Advice
+
+You should copy the `solution.py` of the exercise 200 in this directory and rename it `is_prime.py`.
+This way, you'll be able to import it as a module from the `solution.py` of 210, by doing so:
+
+```python
 import is_prime
-print is_prime.is_prime(999)
+print(is_prime.is_prime(999))
 ```
 
-You're free to name it `math_tools.py`, and `import math_tools`, as
-long as I get every prime number under 1000.
+You're free to name as you want, such as `math_tools.py`, and then do `import math_tools`.
 
 ## References
  - [module](https://docs.python.org/3.4/library/sys.html)

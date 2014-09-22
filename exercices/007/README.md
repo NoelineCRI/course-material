@@ -9,6 +9,24 @@ vertically.
 
 You must use the `print()` function only once in your script.
 
+```bash
+mbp|~-$ python3 solution.py
+H
+e
+l
+l
+o
+
+W
+o
+r
+l
+d
+
+!
+```
+
+
 ## Advice
 
 You must use a [`for`](https://docs.python.org/3.4/reference/compound_stmts.html#for) loop.

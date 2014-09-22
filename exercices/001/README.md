@@ -2,12 +2,12 @@
 
 Introduces: print, strings.
 
-Print "abcdefghijklnmopqrstuvwxyz", using the [`print()`](https://docs.python.org/3.4/library/functions.html#print) function.
+Write a script named `solution.py` that prints "abcdefghijklnmopqrstuvwxyz", using the [`print()`](https://docs.python.org/3.4/library/functions.html#print) function.
 
 Using command line, I want to see:
 
 ```bash
-julien@localhost$ python exo-01.py
+julien@localhost$ python3 solution.py
 abcdefghijklnmopqrstuvwxyz
 julien@localhost$
 ```

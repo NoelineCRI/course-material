@@ -4,7 +4,7 @@ Introduces: range, if.
 
 ## Instructions
 
-Write a script names `solution.py` that prints every even numbers inferior 100, one line per each.
+Write a script names `solution.py` that prints every even numbers inferior to 100, one line per each.
 
 ## References
  - [range](https://docs.python.org/3/library/functions.html#func-range)

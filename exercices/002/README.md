@@ -2,9 +2,22 @@
 
 Introduces: print, strings.
 
-Write a program that print the alphabet. You sould print it in one line, in lower case and reverse the basic ordering.
-Don't forget to add a cariage return at the end of your string if needed. The vowels should be capitalised.
-The name of your should be "exo-02.py".
+Write a program that print the reverse alphabet with the vowels capitalised.
+
+Using command line, I want to see:
+
+```bash
+julien@localhost$ python3 solution.py
+zyxwvUtsrqpOnmlkjIhgfEdcbA
+julien@localhost$
+```
+
+## References
+
+print : <https://docs.python.org/3/library/functions.html#print>
+
+
+
 
 
 ## References

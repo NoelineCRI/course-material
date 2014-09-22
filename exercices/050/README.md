@@ -4,8 +4,9 @@ Introduces: operators, range.
 
 ## Instructions
 
-Resolve the [1st euler problem](https://projecteuler.net/problem=1)
-Print the sum of all the multiples of 3 or 5 below 1000.
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000 and print it with a script named `solution.py`.
 
 ## References
  - [operators](https://docs.python.org/3.1/library/stdtypes.html#numeric-types-int-float-complex)

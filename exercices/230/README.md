@@ -4,10 +4,17 @@ Introduces: itertools, module.
 
 ## Instructions
 
-Prime the first prime number greater than 100000000.
+Provide the script `solution.py` that prints the first prime number greater than 100000000.
 
-You may use itertools.count(), and you may need sys.exit(), so you'll
-probably have to import itertools and import sys.
+```bash
+$ python3 solution.py
+666
+```
+
+
+## Advice
+
+You may use itertools.count(), and you may need sys.exit().
 
 ## References
  - [itertools](https://docs.python.org/3.4/library/itertools.html?highlight=iter#module-itertools)

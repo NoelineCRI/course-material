@@ -15,7 +15,7 @@ Use the [`print()`](https://docs.python.org/3.4/library/functions.html#print) fu
 The correction Robot will test your script such as:
 
 ```bash
-julien@localhost$ python solution.py
+julien@localhost$ python3 solution.py
 Hello World
 julien@localhost$
 ```

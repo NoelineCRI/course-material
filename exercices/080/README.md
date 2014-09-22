@@ -4,10 +4,34 @@ Introduces: strings, for, if.
 
 ## Instructions
 
-Print every combination of lower case letters, one by line.
+Print every possible **combinations** of 2 lowercase letters, one by line.
 
-A combination skips a lots of pairs, for exemple :
-combinations of two items  from 'ABCD' yields AB AC AD BC BD CD
+A combination skips a lots of pairs, make sure you understand : <https://en.wikipedia.org/wiki/Combination>
+
+```bash
+$ python3 solution.py
+ab
+ac
+ad
+ae
+af
+ag
+ah
+ai
+aj
+ak
+...
+vw
+vx
+vy
+vz
+wx
+wy
+wz
+xy
+xz
+yz
+```
 
 ## References
  - [strings](https://docs.python.org/3/tutorial/introduction.html#strings)

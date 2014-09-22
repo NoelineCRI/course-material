@@ -4,16 +4,18 @@ Introduces: comparisons.
 
 ## Instructions
 
-Make Python print its thoughts about 2 + 2 not being equal to 5.
+Provide a script `solution.py` that prints what python think about 2 + 2 not being equal to 5.
 
-## Advice
-
-Take a look at [comparaisons](https://docs.python.org/3/library/stdtypes.html#comparisons)
-
-```python
->>> print(2 + 2 == 4)
+```bash
+mbp|~-$ python3 solution.py
 True
+mbp|~-$
 ```
+
+## References
+
+Comparaisons: <https://docs.python.org/3/library/stdtypes.html#comparisons>
+
 
 ## References
  - [comparisons](https://docs.python.org/3.1/library/stdtypes.html#comparisons)
