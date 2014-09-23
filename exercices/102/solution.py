@@ -38,7 +38,7 @@ velib = [
 
 count = 0
 zipC = ""
-if len(sys.argv) == 2:  # vérification d'un zipcode en argument
+if len(sys.argv) == 2:  # vérification d'un nom de ville en argument
     for station in velib:
         if station["city"] == sys.argv[1]:
             count += 1
