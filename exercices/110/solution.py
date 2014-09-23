@@ -33,11 +33,11 @@ if len(sys.argv) == 4:
         elif sys.argv[2] == "^":
             print(n1 ** n2)
         else:
-            print("usage: python", sys.argv[0],
+            print("usage: python3", sys.argv[0],
                   "a_number (an_operator +-*/%^) a_number")
     else:
-        print("usage: python", sys.argv[0],
+        print("usage: python3", sys.argv[0],
               "a_number (an_operator +-*/%^) a_number")
 else:
-    print("usage: python", sys.argv[0],
+    print("usage: python3", sys.argv[0],
           "a_number (an_operator +-*/%^) a_number")
