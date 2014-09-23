@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import sys
 velib = [
     {'address': 'RUE DES CHAMPEAUX(PRES DE LA GARE ROUTIERE)-93170BAGNOLET',
      'zip': '93170',
@@ -36,14 +35,18 @@ velib = [
      'name': 'DE GAULLE (PANTIN)',
      'longitude': 2.412715733388685}]
 
-count = 0
-zipC = ""
-if len(sys.argv) == 2:  # vérification d'un nom de ville en argument
+
+def check_my_city(name):
+    count = 0
+    zipC = []
     for station in velib:
-        if station["city"] == sys.argv[1]:
+        if station["city"] == name:
             count += 1
-            zipC += station["zip"]
+            zipC += [station["zip"]]
     if count == 0:
         print("Sorry! No station for your city has been found!")
     else:
-        print(count, "stations for", sys.argv[1],)  # affichage nom de la ville
+        t = count, "stations for", name, zipC
+        print(t)
+
+check_my_city("PARIS")
