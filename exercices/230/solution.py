@@ -8,13 +8,22 @@ Created on Mon Sep 22 18:16:14 2014
 # Print the fist prime number after the given one
 
 
-import is_primeDef
+def is_prime(n):
+    prime = True
+    for i in range(2, n):
+        if (n % i) == 0:
+            prime = False
+            # print(n,"est divisible par",i)
+            break
+        # else:
+            # print(n,"n'est pas divisible par",i)
+    return(prime)
 
 
 def first_prime(a, b):  # Return the 1st prime of the range [a,b]
     p = 0
     for i in range(a, b):
-        if is_primeDef.is_prime(i):
+        if is_prime(i):
             p = i
             break
     return(p)
