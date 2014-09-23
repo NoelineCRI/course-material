@@ -4,7 +4,5 @@
 
 Ceci est un script temporaire.
 """
-
-if __name__ == "__main__":
-    import sys
-    print(sys.argv[0])
+import sys
+print(sys.argv[0])
