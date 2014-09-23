@@ -9,14 +9,17 @@ Created on Mon Sep 22 18:16:14 2014
 
 
 def is_prime(n):
-    prime = True
-    for i in range(2, n):
-        if (n % i) == 0:
-            prime = False
-            # print(n,"est divisible par",i)
-            break
-        # else:
-            # print(n,"n'est pas divisible par",i)
+    if n < 2:
+        prime = False
+    else:
+        prime = True
+        for i in range(2, n):
+            if (n % i) == 0:
+                prime = False
+                # print(n,"est divisible par",i)
+                break
+            # else:
+                # print(n,"n'est pas divisible par",i)
     return(prime)
 
 # if prime:
