@@ -5,5 +5,5 @@
 Ceci est un script temporaire.
 """
 
-print("abcdefghijklmnopqrstuvwxyz")
-
+alphabet = "abcdefghijklnmopqrstuvwxyz"
+print(alphabet)
