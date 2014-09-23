@@ -6,4 +6,3 @@ Ceci est un script temporaire.
 """
 
 print("Hello world")
-
