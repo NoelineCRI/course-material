@@ -49,4 +49,4 @@ def check_my_city(name):
         t = count, "stations for", name, zipC
         print(t)
 
-check_my_city("PARIS")
+# check_my_city("PARIS")
