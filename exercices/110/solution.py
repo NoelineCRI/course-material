@@ -6,7 +6,6 @@ Created on Tue Sep 23 10:31:54 2014
 """
 
 import sys
-print(sys.argv)
 n1 = 0
 n2 = 0
 # print(sys.argv[2])
