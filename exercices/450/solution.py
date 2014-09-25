@@ -46,6 +46,6 @@ def caesar_cypher(s, key, method):
                 break
         else:  # le char n'est pas une lettre : on le garde tel quel
             res += c
-    print(res)
+    return(res)
 
 # caesar_cypher("Python is super disco !", 31, forward)
