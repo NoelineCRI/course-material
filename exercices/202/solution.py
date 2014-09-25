@@ -5,11 +5,16 @@
 
 
 def starts_with(A, B):  # A,B string
-    res = True
-    for i in range(len(B)):
-        if B[i] != A[i]:
-            res = False
-            break
-    return res
+    # print(len(A))
+    # print(len(B))
+    if (len(B) > len(A)):
+        return False
+    else:
+        res = True
+        for i in range(len(B)):
+            if B[i] != A[i]:
+                res = False
+                break
+        return res
 
-# print(start_with("Bonjour toi!", "Bonjour"))
+# print(starts_with("Bonjour", "Bonjour"))
