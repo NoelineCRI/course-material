@@ -4,7 +4,7 @@
 # return true if A begins with B
 
 
-def start_with(A, B):  # A,B string
+def starts_with(A, B):  # A,B string
     res = True
     for i in range(len(B)):
         if B[i] != A[i]:
