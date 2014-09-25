@@ -5,8 +5,7 @@
 f = open('words', 'r')
 count = 0
 for line in f:
-    l = f.readline()
-    for w in l:
+    for w in line:
         if w == 'e':
             count += 1
 print(count)
