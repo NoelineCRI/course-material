@@ -44,9 +44,10 @@ def check_my_city(name):
             count += 1
             zipC += [station["zip"]]
     if count == 0:
-        print("Sorry! No station for your city has been found!")
+        return("Sorry! No station for your city has been found!")
     else:
-        t = count, "stations for", name, zipC
-        print(t)
+        return({"stations_nb": count,
+                "zip_code": zipC,
+                "city": name})
 
 # check_my_city("PARIS")
