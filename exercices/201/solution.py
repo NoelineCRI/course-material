@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # is_alpha
+# return is the string is composed only of letters
 
 
 def is_alpha(s):  # s is always a string
@@ -8,11 +9,11 @@ def is_alpha(s):  # s is always a string
     from string import ascii_uppercase
     alphaB = list(ascii_lowercase)+list(ascii_uppercase)
     # print(alphaB)
-    res = False
+    res = True
     for w in s:
-        if w in alphaB:
-            res = True
+        if w not in alphaB:
+            res = False
             break
     return(res)
 
-# print(is_alpha("123'0T234567887659,?"))
+# print(is_alpha("abdfebilkngrel bn"))
