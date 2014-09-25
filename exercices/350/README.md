@@ -2,6 +2,8 @@
 
 Introduces: bytes.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Expose two functions `encode` and `decode`.

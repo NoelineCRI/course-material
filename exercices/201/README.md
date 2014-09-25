@@ -1,4 +1,4 @@
-#is_alpha
+# is_alpha
 Introduces: bool, functions, if.
 Authors(s): c24b
 ## Instructions
