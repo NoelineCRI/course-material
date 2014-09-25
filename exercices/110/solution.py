@@ -6,7 +6,7 @@ Created on Tue Sep 23 10:31:54 2014
 """
 
 import sys
-
+print(sys.argv)
 n1 = 0
 n2 = 0
 # print(sys.argv[2])
@@ -18,9 +18,9 @@ if len(sys.argv) == 4:
             print(n1 + n2)
         elif sys.argv[2] == "-":
             print(n1 - n2)
-        elif sys.argv[2] == "README.md":
+        elif sys.argv[2] == "*":
             print(n1 * n2)
-        elif sys.argv[2] == "C:/Program Files/Git":
+        elif sys.argv[2] == "/":
             if n2 != 0:
                 print(n1 / n2)
             else:
