@@ -29,8 +29,6 @@ for w in l:
         else:
             letters[w] += 1
         count_tot += 1
-for w in letters.keys():
-    letters[w] = "%.2f" % (letters[w] / count_tot)
 # "%.2f" % permet de couper le nombre à 2 décimales
-for a in letters.keys():
-    print(a, ":", letters[a])
+for letter, count in sorted(letters.items()):
+    print("{}: {:.2f}".format(letter, (count / count_tot)))
