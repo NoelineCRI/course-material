@@ -3,8 +3,9 @@ Introduces: bool, functions, if.
 Authors(s): c24b
 ## Instructions
 
-Write a function is_alpha that takes on string parameters and return True if the
-given parameter is composed of **any** letter, False otherwise.
+Write a function is_alpha that takes one string as parameter and
+returns the boolean value True if every characters of the given
+parameter are letters, False otherwise.
 
 So it will look like:
 ```python

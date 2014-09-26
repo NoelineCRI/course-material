@@ -6,11 +6,14 @@ Author(s): @c24b.
 
 ## Instructions
 
-Write a script named `solution.py` that outputs the position of the argument and its value in a new line using a `for`.
+Write a script named `solution.py` that outputs the position of the
+argument and its value in a new line using a `for`.
 
 ## Advice
 
-Take a look at [`enumerate()`](https://docs.python.org/3.3/library/functions.html#enumerate) function.
+Take a look at
+[`enumerate()`](https://docs.python.org/3.3/library/functions.html#enumerate)
+function.
 
 ## Example
 

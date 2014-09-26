@@ -4,12 +4,15 @@ Authors(s): c24b
 
 ## Instructions
 
-Write your own function `starts_with(A, B)` with `A` and `B` of type string and
-return True if the A begins with B, False otherwise.
+Write your own function `starts_with(haystack, needle)` with
+`haystack` and `needle` of type string and returning a booléan.
+
+`starts_with` will return True if the string in the `haystack` parameter starts
+with `needle`, and False otherwise.
 
 So it will look like:
 ```python
-def start_with(input, value):
+def starts_with(input, value):
     ...
     ... ...
     ... return False
